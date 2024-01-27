@@ -8,7 +8,7 @@
      var secretKey = credentials.getValue('secret_access_key');
   
     // AWS SNS parameters
-    var topicArn = 'arn:aws:sns:us-east-1:193244750463:ServiceNow-SNS-Topic';
+    var topicArn = 'arn:aws:sns:us-east-1:************:ServiceNow-SNS-Topic';
     var message = JSON.stringify({
       requirements: {
         CPU: inputs.cpu,
